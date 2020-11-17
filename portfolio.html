@@ -5,38 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalise.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>Портфолио</title>
 </head>
 <body>
     <header>
-        <nav>
-        <a href="./index.html"><img src="./images/WebStudio.svg" alt="Logo"></a>
-        <ul>
-            <li><a class="nav-link" href="./index.html">Студия</a></li>
-            <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="nav-link" href="#">Контакты</a></li>
-        </ul>
-        <div>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </div>
-    </nav>
-</header>
-    <main>
-        <section>
-            
-        </section>
-    </main>
-
-    <footer><footer>
-        <address>
+        <nav class="main-nav">
             <a href="./index.html"><img src="./images/WebStudio.svg" alt="Logo"></a>
             <ul>
-                <li><a href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="nav-link" href="./index.html">Студия</a></li>
+                <li><a class="current-page" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="nav-link" href="#">Контакты</a></li>
+            </ul>
+            <div class="contacts">
+                <a class="contacts-telephone" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </div>
+        </nav>
+    </header>
+    <main> 
+        <h1 class="portfolio-works">Ссылки на работы</h1>
+<section class="links-list">
+    <ul>
+        <li><a class="links-list-item" href="#">Все</a></li>
+        <li><a class="links-list-item" href="#">Веб-сайты</a></li>
+        <li><a class="links-list-item" href="#">Приложения</a></li>
+        <li><a class="links-list-item" href="#">Дизайн</a></li>
+        <li><a class="links-list-item" href="#">Маркетинг</a></li>
+    </ul>
+
+    <ul class="demo-cards">
+        <li>
+            <ul>
+                <li><a href=""><img src="./images/portfolio-site.jpg" alt="web-site"></a></li>
+                <li><h2>Технокряк</h2></li>
+                <li><p>Веб-сайт</p></li>
+            </ul>
+        </li>
+        <li>
+        <ul>
+            <li><a href=""><img src="./images/portfolio-design.jpg" alt="design"></a></li>
+            <li>
+                <h2>Постер New Orlean vs Golden Star</h2>
+            </li>
+            <li>
+                <p>Дизайн</p>
+            </li>
+        </ul>
+        </li>
+        <li><ul>
+            <li><a href=""><img src="./images/portfolio-app.jpg" alt="application for restaurant"></a></li>
+            <li>
+                <h2>Ресторан Seafood</h2>
+            </li>
+            <li>
+                <p>Приложение</p>
+            </li>
+        </ul></li>
+        <li><ul>
+                <li><a href=""><img src="./images/portfolio-marketing.jpg" alt="earphones"></a></li>
+                <li><h2>Проект Prime</h2></li>
+                <li><p>Маркетинг</p></li>
+            </ul></li>
+            <li><ul>
+            <li><a href=""><img src="./images/portfolio-app-boxes.jpg" alt="boxes"></a></li>
+            <li>
+                <h2>Проект Boxes</h2>
+            </li>
+            <li>
+                <p>Приложение</p>
+            </li>
+        </ul></li>
+        <li><ul>
+            <li><a href=""><img src="./images/portfolio-site-inspiration.jpg" alt="monitor"></a></li>
+            <li>
+                <h2>Inspiration has no Borders</h2>
+            </li>
+            <li>
+                <p>Веб-сайт</p>
+            </li>
+        </ul></li>
+        <li><ul>
+            <li><a href=""><img src="./images/portfolio-design-lmt-edition.jpg" alt="book"></a></li>
+            <li>
+                <h2>Издание Limited Edition</h2>
+            </li>
+            <li>
+                <p>Дизайн</p>
+            </li>
+        </ul></li>
+        <li>
+            <ul>
+                <li><a href=""><img src="./images/portfolio-marketing-lab.jpg" alt="label tag"></a></li>
+                <li>
+                    <h2>Проект LAB</h2>
+                </li>
+                <li>
+                    <p>Маркетинг</p>
+                </li>
+            </ul>
+        </li>
+        <li><ul>
+            <li><a href=""><img src="./images/portfolio-app-business.jpg" alt="notebook with app"></a></li>
+            <li>
+                <h2>Growing Business</h2>
+            </li>
+            <li>
+                <p>Приложение</p>
+            </li>
+        </ul></li>
+    </ul>
+</section>
+    </main>
+
+    <footer class="footer">
+        <address>
+            <a class="logo-web" href="./index.html">Web<span class="logo-studio">Studio</span></a>
+            <ul class="footer-contacts">
+                <li class="address"><a href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="contacts-telephone"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="contacts-email"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             </ul>
         </address>
-    </footer></footer>
+    </footer>
 </body>
 </html>
